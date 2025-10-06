@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saadi — Goku Energy Zone ⚡</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: url('https://wallpapercave.com/wp/wp9734693.jpg') no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Overlay to make text readable */
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.55);
+      z-index: 0;
+    }
+
+    header {
+      position: relative;
+      z-index: 1;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 2rem 3rem;
+      border-radius: 25px;
+      box-shadow: 0 0 25px rgba(255, 165, 0, 0.7);
+    }
+
+    h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 3rem;
+      margin: 0;
+      color: #ffcc00;
+      text-shadow: 0 0 20px #ff6600, 0 0 40px #ffcc00;
+      animation: aura 2s infinite alternate;
+    }
+
+    @keyframes aura {
+      0% { text-shadow: 0 0 15px #ff6600; }
+      100% { text-shadow: 0 0 35px #ffcc00; }
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #fff5b3;
+      margin-top: 10px;
+    }
+
+    .contact-btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 28px;
+      background: linear-gradient(45deg, #ff8c00, #ffcc00);
+      color: #000;
+      font-weight: bold;
+      font-size: 1.1rem;
+      border-radius: 35px;
+      text-decoration: none;
+      transition: 0.3s;
+      box-shadow: 0 0 20px #ffcc00;
+    }
+
+    .contact-btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 35px #ffcc00;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 15px;
+      color: #fff3a6;
+      font-size: 0.9rem;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Saadi's Goku World ⚡</h1>
+    <p>Unleash your inner Super Saiyan and connect with me!</p>
+    <a href="mailto:saadi121316@gmail.com" class="contact-btn">Contact Me 💥</a>
+  </header>
+
+  <footer>© 2025 Saadi — Super Saiyan Mode Activated ⚡</footer>
+</body>
+</html>
